@@ -1,3 +1,7 @@
+# About
+
+Simple background extension which blocks all YouTube advertisements automatically
+
 # Install
 
 ### Install Extension in Developer Mode
