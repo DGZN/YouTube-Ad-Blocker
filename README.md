@@ -6,4 +6,4 @@ Simple background extension which blocks all YouTube advertisements automaticall
 
 ### Install Extension in Developer Mode
 
-Navigate to `chrome://extensions/` toggle `Developer mode`, click the `Load unpacked` button and select the path to this directory.
+Navigate to `chrome://extensions/` toggle `Developer mode`, click the `Load unpacked` button and browse to and select this directory.
