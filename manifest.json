@@ -1,0 +1,21 @@
+{
+  "name": "Youtube Ad Blocker",
+  "version": "1.0",
+  "description": "Block Youtube Advertisments Automatically",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "*://*.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "js": [
+        "block.js"
+      ]
+    }
+  ]
+}
