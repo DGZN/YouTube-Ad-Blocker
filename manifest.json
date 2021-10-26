@@ -14,7 +14,7 @@
         "*://*.youtube.com/*"
       ],
       "js": [
-        "block.js"
+        "index.js"
       ]
     }
   ]

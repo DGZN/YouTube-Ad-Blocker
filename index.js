@@ -1,5 +1,5 @@
-setInterval(function () {
-  try {
+if (typeof document !== 'undefined') {
+  setInterval(() => {
     if (document.querySelector(".ytp-ad-info-dialog-mute-button")) {
       document.querySelector(".ytp-ad-info-dialog-mute-button").click();
       if (
@@ -10,10 +10,7 @@ setInterval(function () {
         document
           .querySelector(".ytp-ad-feedback-dialog-confirm-button")
           .click();
-        console.log('AD BLOCKED')
       }
     }
-  } catch (e) {
-    console.error(e);
-  }
-}, 100);
+  }, 100);
+}
